@@ -12,7 +12,7 @@ QUnit.test("OK1",
 QUnit.test("OK2",
     function(assert) {
         assert.ok(
-            1==1,
+            1===1,
             "This test also passes - it also doesn't actually test anything, but you get the idea of what a passing test looks like."
         );
     }
@@ -23,7 +23,7 @@ QUnit.test(
     "Write a function `add` that takes two parameters (a and b) and returns the result of adding them,  Assume a and b are both numbers.",
     function(assert) {
         assert.ok(
-            add(2, 2) == 4,
+            add(2, 3) === 5,
             "2+2=4"
         );
     }
